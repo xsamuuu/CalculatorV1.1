@@ -1,0 +1,118 @@
+/*<!-- Proyecto: Calculadora -->
+<!-- Archivo: style.css -->
+<!-- Descripción: Este archivo contiene las reglas de estilo CSS que definen el aspecto visual de la calculadora. -->
+<!-- Autor: Samuel Moscoso -->
+<!-- Fecha: 15/06/2023 -->*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body { background-color: rgb(15, 70, 70); }
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pantalla{
+    grid-column: 1/-1;
+    font-size: 2.7rem;
+    color:white;
+    background-color: rgb(23, 2, 63);
+    font-weight: 550;
+    margin-bottom: 0.1rem;
+    border-radius: 0.5rem;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+.calculator{
+    background-color: black;
+    color:white;
+    padding: 1.5rem;
+    width: 350px;
+    max-width: 100%;
+    gap: 5rem;
+    border-radius: 1rem;
+    box-shadow: 20px -15px 1px 1px rgba(0, 0, 0, 0.2)/*capa trasera */,10px -6px 0px 1px  rgba(0, 0, 0, 0.2)/* capa secundaria */, 3px -3px 0px 0px rgb(0, 32, 32)/* capa primaria*/;
+    
+}
+
+
+#btn input[class=N1] {
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    width: 20%;
+    border-radius: .2rem;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    transition:background-color 0.1s;
+}
+
+#btn input[class=N1]:active{
+    background-color: grey;
+
+}
+#btn input[class=N2] {
+    width: 20%;
+    border-radius: 0.25rem;
+    margin-top: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+  
+    padding: 18px;
+    margin: 3px;
+    grid-row: 2 / span 2;
+    background-color: #e6394a;
+    border: 0;
+    justify-content: center;
+    transition: background-color 0.1s; 
+}
+#btn input[class=N2]:active {
+background-color: red;
+}
+
+#btn input[class=N3] {
+    width: 31.7%;
+    height: 1%; 
+    cursor: pointer;
+    border: 0.2rem;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 0.2rem;
+    justify-content: center;
+}
+button {
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: .2rem;
+    padding: 20px;
+    margin: 8px;
+    border: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: calc(20% + 2px);
+    padding: calc(18px + 2px);
+    transition: background-color 0.1s;
+}   
+
+button:active {
+    background-color: blue;
+    
+}
+
