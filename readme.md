@@ -19,8 +19,9 @@ Este es un programa de calculadora simple que puedes utilizar en tu navegador we
 5. Puedes utilizar los botones de navegación izquierda **(←)** y derecha **(→)** para  desplazarte por la pantalla y ver el contenido completo.
 6. Para obtener el resultado de la operación, haz clic en el botón de igual **(=)**.
 7. El resultado se mostrará en la pantalla de visualización.
-8. Personalización
+8. Personalización.
 9. Si deseas personalizar el aspecto de la calculadora, puedes modificar el archivo style.css. Aquí encontrarás las clases y estilos utilizados para dar formato a los elementos de la calculadora. Puedes ajustar los colores, tamaños y disposición de acuerdo a tus preferencias.
+9. Ahora se cuenta podra visualizar y comprobar el resultado ya obtenido en la calculadora mediante el historial.
 
 
 ## <span style="color:white;">Tecnologías utilizadas</span>
@@ -37,7 +38,6 @@ Este es un programa de calculadora simple que puedes utilizar en tu navegador we
 ## <span style="color:aqua;">Creditos</span>
 
 Este programa de calculadora fue creado por **Samuel Moscoso**. <br>
-Agradezco a [CarpiCoder](https://www.youtube.com/watch?v=hZFEgkrOwks&ab_channel=CarpiCoder) por su útil tutorial sobre el script en JavaScript que sirvió como referencia para este proyecto.
 
 
 ## <span style="color:white;">Licencia</span>
@@ -87,3 +87,6 @@ This calculator program was created by **Samuel Moscoso**
 
 ## V1.0
 ![Version 1.0](./versiones/V1_0.PNG)
+
+## V1.1
+![Version 1.1](./versiones/V1_1.PNG)

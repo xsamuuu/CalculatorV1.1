@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow: hidden;
+  
 }
 body { background-color: rgb(15, 70, 70); }
 
@@ -18,7 +20,7 @@ body { background-color: rgb(15, 70, 70); }
     height: 100vh;
 }
 .pantalla{
-    grid-column: 1/-1;
+    grid-column: 10/-1;
     font-size: 2.7rem;
     color:white;
     background-color: rgb(23, 2, 63);
@@ -26,18 +28,19 @@ body { background-color: rgb(15, 70, 70); }
     margin-bottom: 0.1rem;
     border-radius: 0.5rem;
     overflow: hidden; 
-    white-space: nowrap;
+    width: 280px;
+    opacity: 80%;
 }
 .calculator{
     background-color: black;
     color:white;
     padding: 1.5rem;
-    width: 350px;
+    width: 330px;
     max-width: 100%;
     gap: 5rem;
     border-radius: 1rem;
     box-shadow: 20px -15px 1px 1px rgba(0, 0, 0, 0.2)/*capa trasera */,10px -6px 0px 1px  rgba(0, 0, 0, 0.2)/* capa secundaria */, 3px -3px 0px 0px rgb(0, 32, 32)/* capa primaria*/;
-    
+    opacity: 85%;
 }
 
 
@@ -98,7 +101,7 @@ button {
     
     cursor: pointer;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: .2rem;
     padding: 20px;
     margin: 8px;
@@ -106,13 +109,31 @@ button {
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    width: calc(20% + 2px);
+    width: calc(20% + 200px);
     padding: calc(18px + 2px);
     transition: background-color 0.1s;
+    opacity: 40%;
 }   
-
+button:hover {
+    background-color: rgba(0, 255, 255, 0.808);
+  }
 button:active {
-    background-color: blue;
+    background-color: rgb(3, 48, 90);
     
 }
-
+/*historial*/
+.historial {
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.82;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    right: 0;
+  
+    top: 0;
+    bottom: 0;
+    width: 30%; 
+  }
